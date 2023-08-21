@@ -17,33 +17,28 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `⟥⟝⟢⟨ *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰* ⟩⟣⟞⟤
+let str = `⟥⟝⟢⟨ *𝐁𝐨𝐭𝐀𝐱𝐱𝐜-𝚄𝙻𝚃𝚁𝙰* ⟩⟣⟞⟤
 ➟ *𝗛ᴏʟᴀ,➟${taguser}*
-➟ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
+➟ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴇʟʙᴇʀᴏ*
 ➟ *ғᴇᴄʜᴀ:➟${date}*
 ➟ *ᴛɪᴇᴍᴘᴏ:➟${uptime}* 
 ➟ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
-➟ *ᴄᴜᴇɴᴛᴀs ᴏғᴄ:* *https://atom.bio/ofc_yovani_hades*
-⬒ ─⟢⟨©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍⟩⟣─ ⬒
+➟ *ᴄᴜᴇɴᴛᴀs ᴏғᴄ:
+⬒ ─⟢⟨©ᴏғᴄ-ʏᴇʟʙᴇʀᴏ﹏✍⟩⟣─ ⬒
 
 ⬒ ─⟢⟨ *CHATGPT* ⟩⟣─ ⬒
 ➟ *.ia chatgpt*
 ➟ *.bot pergunta*
-⬒ ─⟢⟨©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍⟩⟣─ ⬒
+⬒ ─⟢⟨©ᴏғᴄ-ʏᴇʟʙᴇʀᴏ﹏✍⟩⟣─ ⬒
 
 ⬒ ─⟢⟨ *Menus* ⟩⟣─ ⬒
 ➟ *.descargas*
-➟ *.grupos*
 ➟ *.info*
 ➟ *.menustickers*
-➟ *.propietario*
 ➟ *.enable comandos para el owner*
-➟ *.instalarbot miku*
 ➟ *.ip servidor de minecraft*
-➟ *.Miku*
 ➟ *.perfil*
-➟ *.redes*
-⬒─⟢⟨©𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰✍⟩⟣─⬒`.trim()
+⬒─⟢⟨𝐁𝐨𝐭𝐀𝐱𝐱𝐜-𝚄𝙻𝚃𝚁𝙰✍⟩⟣─⬒`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
